@@ -302,8 +302,6 @@ API.Group.createBulkAbsence({
 
 `POST http://example.com/api/group/absence`
 
-### URL Parameters
-
 ### Response status codes
 
 Status Code | Meaning
