@@ -300,7 +300,7 @@ API.Group.createBulkAbsence({
 
 ### HTTP Request
 
-`POST http://example.com/api/group/{group_id}/absence`
+`POST http://example.com/api/group/absence`
 
 ### URL Parameters
 
