@@ -503,7 +503,7 @@ You must replace <code>{token}</code> with your personal API key.
 
 <span class="kr">const</span> <span class="nx">API</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">DoctolibApi</span><span class="p">(</span><span class="s1">'token'</span><span class="p">)</span>
 
-<span class="nx">API</span><span class="p">.</span><span class="nx">Group</span><span class="p">.</span><span class="nx">createAbsence</span><span class="p">(</span><span class="nx">group_id</span><span class="p">,</span> <span class="p">{</span> 
+<span class="nx">API</span><span class="p">.</span><span class="nx">Group</span><span class="p">.</span><span class="nx">createBulkAbsence</span><span class="p">({</span> 
     <span class="s2">"people"</span><span class="p">:</span> <span class="p">[</span><span class="nx">person_id</span><span class="p">],</span>
     <span class="s2">"starts_at"</span><span class="p">:</span> <span class="nx">Timestamp</span><span class="p">,</span>
     <span class="s2">"ends_at"</span><span class="p">:</span> <span class="nx">Timestamp</span><span class="p">,</span>
