@@ -264,7 +264,7 @@ const DoctolibApi = require('doctolib');
 
 const API = new DoctolibApi('token')
 
-API.Group.createAbsence(group_id, { 
+API.Group.createBulkAbsence({ 
     "people": [person_id],
     "starts_at": Timestamp,
     "ends_at": Timestamp,
