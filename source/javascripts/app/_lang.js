@@ -138,6 +138,7 @@ under the License.
     languages = l;
 
     var presetLanguage = getLanguageFromQueryString();
+    console.log(presetLanguage);
     if (presetLanguage) {
       // the language is in the URL, so use that language!
       activateLanguage(presetLanguage);
